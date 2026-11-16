@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "CCASSO Scanner",
+    "slug": "ccasso-scanner",
+    "version": "2.3.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon-square.png",
+    "splash": {
+      "image": "./assets/icon-square.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f9fcff"
+    },
+    "android": {
+      "package": "org.ccasso.kioskscanner",
+      "versionCode": 6,
+      "allowBackup": false,
+      "permissions": [
+        "CAMERA",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "VIBRATE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon-square.png",
+        "backgroundColor": "#f9fcff"
+      },
+      "icon": "./assets/icon-square.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.ccasso.kioskscanner",
+      "buildNumber": "2.3.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Camera is used to scan attendance QR codes, membership cards, and Enrollment Fee receipts."
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow CCASSO Scanner to scan attendance, membership cards, and Enrollment Fee receipts."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0dcb06e5-1c1e-45c0-a2d4-4863e70d84bb"
+      }
+    },
+    "owner": "abdulomar120"
+  }
+}

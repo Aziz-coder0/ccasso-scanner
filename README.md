@@ -225,3 +225,10 @@ EAS preview APK for use without Metro.
 
 Do not clear the Pending list until it has synchronized. Clearing local data
 cannot undo attendance already accepted by UniOrg.
+
+## License
+
+The original CCASSO Scanner source code is licensed under the
+[MIT License](LICENSE). The CCASSO name, logos, and branded artwork are reserved
+by their respective owners. Third-party components follow their own licenses.
+See the [Lineicons attribution](LINEICONS_NOTICE.md).
